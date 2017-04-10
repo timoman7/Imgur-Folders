@@ -7,6 +7,7 @@ A quick album viewer that opens in new incognito window
   4. Click "Load unpacked extension"
   5. Navigate to the location in which you downloaded the extension
   6. Click the folder, then click open.
+  
 ##To use:
   -Click any picture on www.imgur.com then click add to favorites
   -A window will open, the left text box is the favorite folder, the right is the name of the picture
