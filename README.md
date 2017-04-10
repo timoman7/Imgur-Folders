@@ -9,6 +9,6 @@ A quick album viewer that opens in new incognito window
   6. Click the folder, then click open.
   
 ##To use:
-  -Click any picture on www.imgur.com then click add to favorites
-  -A window will open, the left text box is the favorite folder, the right is the name of the picture
-  -To access favorites; click the new extension button in the top right of your Chrome and click options
+  1. Click any picture on www.imgur.com then click add to favorites
+  2. A window will open, the left text box is the favorite folder, the right is the name of the picture
+  3. To access favorites; click the new extension button in the top right of your Chrome and click options
