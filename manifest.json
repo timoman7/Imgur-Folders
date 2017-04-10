@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Imgur Folders",
+  "short_name": "Folders",
+  "description": "Adding folders to Imgur",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "clipboardRead",
+    "clipboardWrite",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "icons": {
+    "16": "assets/imgur.png"
+  },
+  "background": {
+    "scripts": ["main.js"]
+	},
+  "content_scripts":[{
+    "matches": ["*://imgur.com/*"],
+    "css":["mystyles.css"],
+    "js": [
+      "create-folder.js",
+      "jquery.min.js",
+      "bootstrap.min.js"
+    ]
+  }],
+  "options_page": "options.html"
+}
